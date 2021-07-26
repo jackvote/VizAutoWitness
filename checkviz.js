@@ -7,11 +7,12 @@ viz.config.set('websocket', VIZNODE)
 
 // --------- Настройки скрпипта -----------------
 
+ar owner="retroscope"
 var wif="5Qwerty..."
-var owner="retroscope"
+var keyon="VIZ5m14X9UrUkZUM67A546ak6CezBKce3TbYrMJQFXqGKDSmQNN9B" // публичный ключ
+
 var urlon="https://control.viz.world/witnesses/"  // урл/текст при активации делегата
 var urloff="Disable via js"                     // урл/текст при деактивации делегата
-var keyon="VIZ5m14X9UrUkZUM67A546ak6CezBKce3TbYrMJQFXqGKDSmQNN9B" // публичный ключ
 
 var keyoff="VIZ1111111111111111111111111111111114T1Anm" // ключ деактивации
 var missed=0 // для теста установить меньше реально пропущенных блоков, 0 - для нормального запуска
